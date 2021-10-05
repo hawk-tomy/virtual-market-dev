@@ -8,13 +8,13 @@ from pprint import pformat
 from textwrap import indent
 from typing import TYPE_CHECKING
 
-from bot_util.util import split_line
+from lib.util import split_line
 from discord.ext import commands
 from discord.file import File
 
 if TYPE_CHECKING:
     from bot import Bot
-    from bot_util import Context, Embed
+    from lib import Context, Embed
 
 
 logger = getLogger(__name__)
