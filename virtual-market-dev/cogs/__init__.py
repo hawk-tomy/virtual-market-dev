@@ -2,7 +2,7 @@ __all__ = ('extension',)
 
 my_extension = tuple(
     f'{__name__}.{name}' for name in (
-        'cog_template',
+        'owner',
     )
 )
 addtional_extension = (
