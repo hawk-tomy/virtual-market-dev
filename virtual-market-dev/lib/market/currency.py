@@ -2,6 +2,9 @@ from __future__ import annotations
 
 
 class Currency:
+
+    #initialize
+
     def __init__(self):
         pass
 
@@ -13,11 +16,16 @@ class Currency:
     def from_new(cls, db):
         pass
 
+    #for property
+
+    @property
+    def setting(self):
+        pass
+
+    #for setting
+
+    def update_setting(self, new):
+        pass
+
     def new_rate(self, new):
-        pass
-
-    def update_setting(self):
-        pass
-
-    def save(self):
         pass

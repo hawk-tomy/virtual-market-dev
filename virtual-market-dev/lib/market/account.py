@@ -2,6 +2,9 @@ from __future__ import annotations
 
 
 class Account:
+
+    #initialize
+
     def __init__(self):
         pass
 
@@ -12,6 +15,19 @@ class Account:
     @classmethod
     def from_new(cls, db):
         pass
+
+    #for property
+
+    @property
+    def setting(self):
+        pass
+
+    #for setting
+
+    def update_setting(self, new):
+        pass
+
+    #for transfer
 
     def importer(self, new):
         pass
