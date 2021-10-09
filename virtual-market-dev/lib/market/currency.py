@@ -16,6 +16,11 @@ class Currency:
     def from_new(cls, db):
         pass
 
+    #for save
+
+    def save(self):
+        pass
+
     #for property
 
     @property
