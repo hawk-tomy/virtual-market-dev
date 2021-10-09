@@ -16,6 +16,11 @@ class Bank:
     def from_new(cls, data):
         pass
 
+    #for save
+
+    def save(self):
+        pass
+
     #for property
 
     @property
